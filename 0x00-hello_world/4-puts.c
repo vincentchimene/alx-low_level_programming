@@ -1,14 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - main block
+ * Return: 0
  */
-int main(void)/* Program to print using puts function */
+int main(void)
 {
-		/* String initialization */
-	char Mystr[] = "Programming is like building a multilingual puzzle";
-
-	puts(Mystr); /*prints Mystr with a new line */
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
