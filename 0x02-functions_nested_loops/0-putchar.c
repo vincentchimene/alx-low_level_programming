@@ -1,11 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - main block
- * Description: A program that prints _putchar followed by a new line.
- * Return: 0
- */
+* main -This program prints _putchar followed by a new line.
+* Description:This is done without standard libraries.
+* Return: 0
+*/
 int main(void)
 {
-	printf("_putchar\n");
+	char printer[] = "_putchar";
+	int i = 0;
+
+	while (printer[i] != '\0')
+	{
+		_putchar(printer[i]);
+		i++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
