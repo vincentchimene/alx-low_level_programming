@@ -4,7 +4,7 @@
  * @str: string to be printed
  * Return: none
  */
-int _puts(*str)
+int _puts(char *str)
 {
 	int i;
 
