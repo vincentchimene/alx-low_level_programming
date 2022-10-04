@@ -1,6 +1,4 @@
-#0x09. C - argc, argv#
-
-##Description##
+0x09. C - argc, argv
 
 What you should learn from this project:
 
