@@ -1,14 +1,14 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - function that prints numbers given as parameters
+ * print_numbers - prints numbers given as parameters
  * @separator: string to be printed between numbers
  * @n: number of integers passed to the function
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i;
 	va_list valist;
+	unsigned int i;
 
 	if (separator == NULL)
 		return;
@@ -19,8 +19,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(valist, const unsigned int));
 
-		if (separator && i == 0)
-			printf("%d", va_arg(valist, const unsigned int));
 		if (i != (n - 1))
 			printf("%s", separator);
 	}
