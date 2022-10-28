@@ -4,7 +4,7 @@
 a function that converts a binary number to an unsigned int.
 
 1. 1
-a function that prints the binary representation of a number.
+A function that prints the binary representation of a number.
 
 2. 10
 a function that returns the value of a bit at a given index.
